@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html {
+      scroll-behavior: smooth;
+      font-size: 62.5%;
+    }
+    body {
+      background-color: skyblue;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.5rem;
+      font-weight: bolder;
+    }
+    input, button {
+      font: inherit;
+    }
+    .container {
+      background-color: black;
+      margin: 8rem auto;
+      width: 50rem;
+      padding: 1rem;
+    }
+    input {
+      width: 100%;
+      padding: 2rem;
+      border-radius: 0.5rem;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+    main {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      row-gap: 1rem;
+      column-gap: 0.2rem;
+    }
+    .btn {
+      padding: 2rem;
+      border-radius: 0.5rem;
+      background-color: rgba(255, 255, 255, 0.815);
+    }
+    footer button {
+      width: 100%;
+      padding: 2rem;
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+      background-color: rgba(255, 255, 255, 0.815);;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <input type="text" placeholder="986754">
+    </header> 
+    <main>
+      <button class="btn">9</button>
+      <button class="btn">8</button>
+      <button class="btn">7</button>
+      <button class="btn">+</button>
+      <button class="btn">6</button>
+      <button class="btn">5</button>
+      <button class="btn">4</button>
+      <button class="btn">-</button>
+      <button class="btn">3</button>
+      <button class="btn">2</button>
+      <button class="btn">1</button>
+      <button class="btn">*</button>
+      <button class="btn">0</button>
+      <button class="btn">/</button>
+      <button class="btn">%</button>
+      <button class="btn">=</button>
+    </main> 
+    <footer>
+      <button>DELETE</button>
+    </footer>
+  </div>
+</body>
+</html>
